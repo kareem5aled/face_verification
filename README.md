@@ -29,8 +29,12 @@ The project includes an API that accepts two images, computes their similarity u
 
 ## Usage
 
-To test the API, you can use the following `curl` command:
+To test the API, first start the django server:
+```
+python manage.py runserver
+```
 
+You can use tools like `curl`, Postman, or write a simple script to test the endpoint. Here's an example using `curl`:
 ```
 curl -X POST http://127.0.0.1:8000/api/verify/ -F "image1=@path/to/image1.jpg" -F "image2=@path/to/image2.jpg"
 ```
