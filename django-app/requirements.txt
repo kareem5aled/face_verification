@@ -1,0 +1,5 @@
+Django
+onnxruntime
+Pillow
+torch
+torchvision
