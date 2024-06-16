@@ -29,7 +29,9 @@ The project includes an API that accepts two images, computes their similarity u
 
 ## Usage
 
-To test the API, first start the django server:
+First, make sure to download the ONNX model from [google drive](https://drive.google.com/file/d/1v1zunrvi-dIuP87HCUwEqkWInxkfNr8A/view?usp=sharing) and add it to the following path `django-app/onnxmodel`
+
+To test the API, start the django server:
 ```
 python manage.py runserver
 ```
